@@ -1,8 +1,10 @@
 # Vector Fitting Algorithm and Circuit Sythesis
 ### Author: Jennifer Houle
 ### Date: 5/10/2020
-This code was written for a project for a class taught by Dr. Ata Zadehgol, who pointed out most of the relevent 
-papers and resources listed under references. He provided overall project guidance as well as answered many questions.
+
+This code was written for a class project in the course entitled ECE 504: "Modern Circuit Synthesis Algorithms" taught 
+in Spring 2020 by Dr. Ata Zadehgol a the University of Idaho in Moscow. Dr. Zadehgol pointed out most of the relevant 
+papers and resources listed under references, and provided overall project guidance as well as answered many questions.
 
 # Overview
 - This code implements the VFIT 3 (vector fitting) algorithm [1-3] for pole relocation based directly on the MATLAB code in [4]. 
