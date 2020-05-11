@@ -3,7 +3,7 @@
 ### Date: 5/10/2020
 
 This code was written for a class project in the course entitled ECE 504: "Modern Circuit Synthesis Algorithms" taught 
-in Spring 2020 by Dr. Ata Zadehgol a the University of Idaho in Moscow. Dr. Zadehgol pointed out most of the relevant 
+in Spring 2020 by Dr. Ata Zadehgol at the University of Idaho in Moscow. Dr. Zadehgol pointed out most of the relevant 
 papers and resources listed under references, and provided overall project guidance as well as answered many questions.
 
 # Overview
