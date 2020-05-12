@@ -175,7 +175,7 @@ See circuit_synthesis_env.yml
     Jan. 21, 2020. [Online]. Available: 
     https://www.sintef.no/projectweb/vectfit/downloads/vfut3/.
 
-[5] VA. Zadehgol, "A semi-analytic and cellular approach to rational system characterization 
+[5] A. Zadehgol, "A semi-analytic and cellular approach to rational system characterization 
     through equivalent circuits", Wiley IJNM, 2015. [Online]. https://doi.org/10.1002/jnm.2119
 
 [6] V. Avula and A. Zadehgol, "A Novel Method for Equivalent Circuit Synthesis from 
@@ -188,7 +188,7 @@ See circuit_synthesis_env.yml
 
 [8] B. Gustavsen, "Fast passivity enforcement for S-parameter models by perturbation
     of residue matrix eigenvalues",
-    IEEE Trans. Advanced Packaging, accepted for publication.
+    IEEE Trans. Advanced Packaging, vol. 33, no. 1, pp. 257-265, Feb. 2010.
 
 [9] B. Gustavsen, "Fast Passivity Enforcement for Pole-Residue Models by Perturbation
     of Residue Matrix Eigenvalues", IEEE Trans. Power Delivery, vol. 23, no. 4,
