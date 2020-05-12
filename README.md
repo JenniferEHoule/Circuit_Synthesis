@@ -173,7 +173,7 @@ See circuit_synthesis_env.yml
 
 [4] B. Gustavsen, VFIT3, The Vector Fitting Website. March 20, 2013. Accessed on:
     Jan. 21, 2020. [Online]. Available: 
-    https://www.sintef.no/projectweb/vectfit/downloads/vfut3/.
+    https://www.sintef.no/projectweb/vectfit/downloads/vfit3/.
 
 [5] A. Zadehgol, "A semi-analytic and cellular approach to rational system characterization 
     through equivalent circuits", Wiley IJNM, 2015. [Online]. https://doi.org/10.1002/jnm.2119
