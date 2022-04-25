@@ -24,6 +24,8 @@ input data restrictions apply.
     for more than 4 ports. Any performance enhancements will likely start here.  
     * quadprog: this solver is more restrictive in Python than in MATLAB. There may be other versions that more closely align
     with MATLAB. When it works, which is most of the time, the results do appear consistent with MATLAB though.
+    * If the S/Y-Parameter data is generated using ADS, the outputs can be saved in the MATLAB format and 
+    `ads_mat_format_new.py` can be run to convert to the correct .npy format.
 
 # Licensing
 From [7], restrictions on use, in addition to licensing:
@@ -35,7 +37,7 @@ From [7], restrictions on use, in addition to licensing:
 
 # Files:
 
-##Main Program Files:
+## Main Program Files:
 - convert_y_to_y_prime.py: Converts the Y matrix to a Y' matrix [6]
 - vectfit3.py: Implements the vector fitting algorithm as a class, VectorFit3. [1-4]
     * Note: use asymp=AsympOptions.NONE for accurate netlist generation
@@ -52,7 +54,7 @@ From [7], restrictions on use, in addition to licensing:
     * pr2ss.py: This function completes the state space model [7]
     * utils.py: Contains supporting functions including options found in [7]
 
-##Supporting Program Files:
+## Supporting Program Files:
 - Flowchart.pdf: Flowcharts, some results, etc.
 - circuit_synthesis_env.yml: Version and library information
 - ex2_Y.py: 3 port example from the Matrix Fitting Toolbox [7]
@@ -63,7 +65,9 @@ From [7], restrictions on use, in addition to licensing:
     the starting data generated from ADS for an LR circuit.
     * `output_from_4port_simulation_netlist_s.npy`,`output_from_4port_simulation_netlist_f.npy` are
     the data generated from ADS using the generated netlist.
-
+- ads_mat_format_new.py: converts the ADS .mat output (saved as MATLAB file) to .np arrays
+    * see `ADS.mat` for an example MATLAB output. 
+    
 # Full program
 See example ex2_Y.py. This example:
 1. Imports data. This is assumed to be Y' data (see flowchart in Flowchart file).
